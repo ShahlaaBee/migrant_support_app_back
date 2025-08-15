@@ -15,7 +15,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 app.use(methodOverride('_method'))
 app.use(cors({
-  origin: 'http://misos.surge.sh',
+  origin: 'https://misos.surge.sh',
   credentials: true
 }))
 app.use(
