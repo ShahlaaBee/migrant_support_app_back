@@ -38,6 +38,9 @@ app.use('/api/support', supportRouter)
 const userRouter = require('./routes/userRouter')
 app.use('/api/users', userRouter)
 
+const informationMaterialsRouter = require('./routes/informationMaterialsRouter')
+app.use('/api/information-materials', informationMaterialsRouter)
+
 
 
 app.get('/', (req, res) => {
